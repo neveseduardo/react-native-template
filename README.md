@@ -2,7 +2,7 @@
 
 -   Este é um template inicial para desenvolvimento de aplicativo com react native.
 -   Contém libs externas auxiliadoras como: [ React navigation ](https://reactnavigation.org/) e [ React Native Paper ](https://callstack.github.io/react-native-paper)
--   Conta com design intuitivo e extruturado:
+-   Conta com design intuitivo e estruturado:
 
 ``` bash
 .
