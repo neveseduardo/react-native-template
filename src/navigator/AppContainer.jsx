@@ -13,12 +13,12 @@ function App() {
 
     useEffect(() => {
         setTimeout(() => {
-            navigator.navigate('Authentication')
+            navigator.navigate('Main')
         }, timeout)
     })
 
     return (
-        <Stack.Navigator initialRouteName="Splash">
+        <Stack.Navigator initialRouteName="Main">
             <Stack.Screen
                 name="Splash"
                 component={SplashScreen}

@@ -5,7 +5,11 @@ import styles from '~styles/'
 const Splash = () => {
     return (
         <View style={[styles.splash.container]}>
-            <StatusBar hidden={true} />
+            <StatusBar
+                backgroundColor="#333333"
+                barStyle="light-content"
+                hidden={true}
+            />
             <View style={[styles.splash.logo]}>
                 <View>
                     <Text style={[styles.splash.logoText]}>Fontools</Text>

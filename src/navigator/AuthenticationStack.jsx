@@ -20,7 +20,7 @@ function AuthenticationStack() {
                 name="Login"
                 component={LoginScreen}
                 options={{
-                    headerShown: true,
+                    headerShown: false,
                     headerTitle: '',
                     headerShadowVisible: false,
                 }}
@@ -29,7 +29,7 @@ function AuthenticationStack() {
                 name="Register"
                 component={RegisterScreen}
                 options={{
-                    headerShown: true,
+                    headerShown: false,
                     headerTitle: '',
                     headerShadowVisible: false,
                 }}
@@ -38,7 +38,7 @@ function AuthenticationStack() {
                 name="ForgotPassword"
                 component={ForgotPasswordScreen}
                 options={{
-                    headerShown: true,
+                    headerShown: false,
                     headerTitle: '',
                     headerShadowVisible: false,
                 }}
@@ -47,7 +47,7 @@ function AuthenticationStack() {
                 name="ResetPassword"
                 component={ResetPasswordScreen}
                 options={{
-                    headerShown: true,
+                    headerShown: false,
                     headerTitle: '',
                     headerShadowVisible: false,
                 }}

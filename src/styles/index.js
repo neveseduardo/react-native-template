@@ -6,6 +6,8 @@ import authentication from '~styles/modules/authentication'
 import fonts from '~styles/modules/fonts'
 import dimensions from '~styles/modules/dimensions'
 import colors from '~styles/modules/colors'
+import drawer from '~styles/modules/drawer'
+import profile from '~styles/modules/profile'
 
 export default {
     buttons,
@@ -16,4 +18,6 @@ export default {
     fonts,
     dimensions,
     colors,
+    drawer,
+    profile,
 }

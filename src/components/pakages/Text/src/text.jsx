@@ -2,8 +2,12 @@ import React from 'react'
 import {Text} from 'react-native'
 import styles from '~styles/'
 
-const CustomText = ({children, style, ...props}) => {
-    let myStyle = [styles.fonts.default.regular]
+const CustomText = ({children, style, type = 'normal', ...props}) => {
+    let myStyle = [
+        type === 'normal'
+            ? styles.fonts.default.regular
+            : styles.fonts.default.bold,
+    ]
     if (Array.isArray(style)) myStyle.push(style)
     else myStyle.push({...style})
 

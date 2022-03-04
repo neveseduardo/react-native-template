@@ -4,7 +4,8 @@ import {Input} from '~components/'
 import styles from '~styles/'
 import {Button} from '~components'
 import {useNavigation} from '@react-navigation/native'
-import {Text} from '~components/'
+import { Text } from '~components/'
+import AntDesign from 'react-native-vector-icons/AntDesign'
 
 const Register = () => {
     const [name, setName] = useState('')
@@ -51,7 +52,8 @@ const Register = () => {
                     Criar conta
 				</Button>
 				<Button
-					type="link"
+                    type="link"
+                    icon={({ size, color }) => (<AntDesign name="arrowleft" size={size} color={color} />)}
                     onPress={() => navigator.navigate('Login')}>
                     Fazer login
                 </Button>
