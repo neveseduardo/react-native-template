@@ -21,16 +21,20 @@
 |-- react-native.config.js
 |-- src
 |   |-- assets
+|   |   `-- fonts 
 |   |-- components
+|   |   `-- packages
 |   |-- http
 |   |-- navigator
 |   |-- providers
 |   |-- screens
+|   |   |-- Authentication
+|   |   `-- Home
 |   |-- store
 |   |-- styles
 |   `-- utils
 |-- yarn-error.log
-`-- yarn.lock				# variáveis de ambiente
+`-- yarn.lock
 ```
 
 # Requerimentos de ambiente
