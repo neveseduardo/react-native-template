@@ -1,9 +1,7 @@
 # React Native template
 
 -   Este é um template inicial para desenvolvimento de aplicativo com react native.
--   Contém libs externas auxiliadoras como:
-    -- [ React navigation ](https://reactnavigation.org/)
-    -- [ React Native Paper ](https://callstack.github.io/react-native-paper)
+-   Contém libs externas auxiliadoras como: [ React navigation ](https://reactnavigation.org/) e [ React Native Paper ](https://callstack.github.io/react-native-paper)
 -   Conta com design intuitivo e extruturado:
 
 ``` bash
@@ -37,4 +35,10 @@
 
 # Requerimentos de ambiente
 
-![Guia de instalação para desenvolmento react native ](https://reactnative.dev/docs/getting-started)
+Acesse o guia/documentação oficial do react native para motar o ambiente de desenvolvimento
+
+[Guia de instalação para desenvolmento react native ](https://reactnative.dev/docs/getting-started)
+
+Depedencias recomendadas
+- Node 16+
+- NPM 8+
