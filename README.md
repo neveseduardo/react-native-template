@@ -5,6 +5,8 @@
     -- ![ React navigation ](https://reactnavigation.org/)
     -- ![ React Native Paper ](https://callstack.github.io/react-native-paper)
 -   Conta com design intuitivo e extruturado:
+
+``` bash
     .
     ├── src 					# pasta de recusrsos
     │   ├── assets				# Arquivos, fonts, imagens
@@ -31,6 +33,7 @@
     ├── App.js
     ├── index.js
     └── .env					# variáveis de ambiente
+```
 
 # Requerimentos de ambiente
 
