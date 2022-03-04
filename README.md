@@ -9,30 +9,28 @@
 ``` bash
 .
 |-- App.jsx
-|-- README.md
-|-- __tests__
-|-- android
-|-- app.json
-|-- babel.config.js
 |-- index.js
-|-- ios
-|-- metro.config.js
+|-- README.md
 |-- package.json
+|-- babel.config.js
 |-- react-native.config.js
+|-- metro.config.js
+|-- android
+|-- ios
 |-- src
-|   |-- assets
+|   |-- assets              # arquivos, fonts, imagens
 |   |   `-- fonts 
-|   |-- components
+|   |-- components          # components globais do app
 |   |   `-- packages
-|   |-- http
+|   |-- http                # módulo de requisições
 |   |-- navigator
 |   |-- providers
-|   |-- screens
-|   |   |-- Authentication
+|   |-- screens             # as telas do sistema
+|   |   |-- Authentication  
 |   |   `-- Home
 |   |-- store
-|   |-- styles
-|   `-- utils
+|   |-- styles              # arquivos de estilização do app
+|   `-- utils               # arquivos úteis globais
 |-- yarn-error.log
 `-- yarn.lock
 ```
